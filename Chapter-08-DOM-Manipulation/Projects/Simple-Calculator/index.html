@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Calculator</h1> 
+    <div class="container">
+        <div class="display">0</div>
+        <div class="button_container">   
+            <button class="clear" onclick="cleardisplay()">C</button>
+            <button class="operator" onclick="appeneValue('+')">+</button>
+            <button onclick="appeneValue('1')">1</button>
+            <button onclick="appeneValue('2')">2</button>
+            <button onclick="appeneValue('3')">3</button>
+            <button class="operator" onclick="appeneValue('-')">-</button>
+            <button onclick="appeneValue('4')">4</button>
+            <button onclick="appeneValue('5')">5</button>
+            <button onclick="appeneValue('6')">6</button>
+            <button class="operator" onclick="appeneValue('*')">*</button>
+            <button onclick="appeneValue('7')">7</button>
+            <button onclick="appeneValue('8')">8</button>
+            <button onclick="appeneValue('9')">9</button>
+            <button class="operator" onclick="appeneValue('/')">/</button>
+            <button onclick="appeneValue('0')">0</button>
+            <button onclick="appeneValue('.')">.</button>
+            <button class="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

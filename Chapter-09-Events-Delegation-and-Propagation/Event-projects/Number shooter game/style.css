@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+   height: 100%;
+    
+    background-color:#e0b8d0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.startingContainer{
+    background-color: greenyellow;
+    max-width: 45rem;
+    margin:2rem auto;
+padding: 2rem;
+border-radius: 5px;
+box-shadow: 4px 4px 7px rgb(153, 228, 42);
+}
+
+
+
+
+
+.startingContainer h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.startingContainer button{
+    width: 40%;
+    height: 40px;
+    background-color:#8BC34A;  
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin: 1.5rem auto;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    transition: all ease 3s ;
+
+}
+
+@media (max-width:400px) {
+    header{
+        width: 100%;
+    }
+    .startingContainer{
+        width:90%;
+        height:230px
+    }
+    
+    .startingContainer h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .startingContainer button{
+        width: 200px;
+        height: 50px;
+        margin: 1rem auto;
+        padding: auto 10px;
+    }
+}
+
+
+@media (min-width:401px) {
+    
+    .startingContainer{
+        width:90%;
+        height:300px;
+    }
+    
+    .startingContainer h1{
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+
+    .startingContainer button{
+                width: 200px;
+                height: 50px;
+            }
+}
+@media (min-width:510px) {
+
+    .startingContainer h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width:600px){
+    .startingContainer{
+        width:90%;
+        height:300px;
+    }
+    .startingContainer button{
+        width: 60%;
+        margin-top: 3.5rem;
+    }
+}
+
+@media (min-width:800px){
+    .startingContainer button{
+        width: 350px;
+    }
+}
+
+@media (max-width:370px) {
+    .header,.header>span{
+        font-size: 16px;
+    }
+
+    
+    .startingContainer button{
+    width: 10rem;
+    padding: 1rem 2rem;
+    }
+}
+.startingContainer button:hover {
+    
+    background-color:  #4CAF50; 
+}
+
+
+
+.startingContainer button:active {
+    transform: scale(0.98);
+}
+
+
+
+p{
+    text-align: center;
+    padding: 1rem;
+    gap: 0.2rem;
+}
+
+ 
+
+.mainContainer{
+background-color:white;
+width: 55rem;
+margin: auto;
+display:flex;
+gap: 10px;
+flex-wrap: wrap;
+justify-content: center;
+padding: 12px;
+visibility: hidden;
+
+cursor: pointer;
+}
+
+
+
+
+.box{
+    background-color: rgb(143, 255, 78);
+    display: grid;
+    place-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: grab;
+} 
+
+
+@media (min-width:100px) {
+    .mainContainer{
+        width:300px;
+        height: 85%;
+        margin:0.6rem auto;
+        gap: 10px;
+        
+    }
+}
+
+@media (min-width:400px) {
+    .mainContainer{
+        width: 340px;
+        height: 75%;
+        margin:1.5rem auto;
+        
+    }
+}
+@media (min-width:425px) {
+    .mainContainer{
+        height: 84%;
+        margin:0.5rem auto;       
+    }
+}
+
+@media (min-width:500px) {
+    .mainContainer{
+        width:325px;
+        height: 60%;
+        margin:2rem auto;
+        gap: 5px;
+    }
+}
+
+@media (min-width:501px) {
+    .mainContainer{
+        width:400px;
+        margin:1rem auto;
+    }
+}
+@media (min-width:800px) {
+    .mainContainer{
+        width:400px;
+        margin:1rem auto;
+ 
+    }
+}
+@media (min-width:801px) {
+    .mainContainer{
+        width:350px;
+        height: 50%;
+    }
+}
+@media (min-width:900px) {
+    .mainContainer{
+        width:400px;
+        height: 77%;
+        gap: 15px;
+    }
+}
+.gameOverContainer{
+    background-color: white;
+    margin: 3rem auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+flex-direction: column;
+visibility: hidden;
+position:absolute;
+        top: 25%;
+        left: 28%;
+
+}
+
+@media (max-width:400px) {
+    .gameOverContainer{
+        width: 83%;
+        height: 200px;
+
+        position:absolute;
+        top: 25%;
+        left: 8%;
+    }
+}
+
+
+@media (min-width:401px) {
+    
+    .gameOverContainer{
+        width:80%;
+        height: 225px;
+        
+                left: 11%;
+            }
+            
+        }
+        
+        
+        @media (min-width:600px){
+            .gameOverContainer{
+                width: 25rem;
+                height: 15rem;        
+                left: 10%;
+            }
+        }
+        
+        @media (min-width:650px){
+            .gameOverContainer{
+            
+                left: 15%;
+            }
+        }
+        
+        
+        @media (min-width:676px){
+            .gameOverContainer{
+            
+                left: 17%;
+            }
+        }
+        
+        
+        @media (min-width:720px){
+            .gameOverContainer{
+            
+                left: 20%;
+            }
+        }
+        
+        @media (min-width:800px){
+            .gameOverContainer{
+                width: 32rem;
+                left: 15%;
+            }
+        }
+        @media (min-width:900px){
+            .gameOverContainer{
+            width: 34rem;
+
+                left: 15%;
+            }
+        }
+        @media (min-width:960px){
+            .gameOverContainer{
+            width: 34rem;
+
+                left: 18%;
+            }
+        }
+        @media (min-width:1000px){
+            .gameOverContainer{
+            width: 35rem;
+            left: 18%;
+            }
+        }
+        @media (min-width:1200px){
+            .gameOverContainer{
+            width: 35rem;
+            left: 22%;
+            }
+        }
+        
+h3{
+    color: red;
+    font-size:2rem ;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.restartBtn{
+    background-color: #4CAF50;
+    padding: 10px 1rem;
+    border-radius: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all ease 1s;
+    color: white;
+}
+
+.restartBtn:hover{
+    background-color: rgb(224, 224, 52); 
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
+
+.finalScoreValue{
+    color: green;
+    font-size: 25px;
+}
+
+.score{
+    font-size: 25px;
+}
