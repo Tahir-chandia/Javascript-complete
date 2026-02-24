@@ -27,10 +27,10 @@
 // add Event listner
 
 
-// let a = document.querySelector("button")
+let a = document.querySelector("button")
 
-// a.addEventListener("click",()=>{
-//     let b =document.querySelector("h1")
-//   b.style.color = "black"
-//   b.style.backgroundColor = "red"
-// })
+a.addEventListener("click",()=>{
+    let b =document.querySelector("h1")
+  b.style.color = "black"
+  b.style.backgroundColor = "red"
+})

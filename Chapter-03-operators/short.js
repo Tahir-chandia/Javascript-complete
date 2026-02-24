@@ -1,12 +1,12 @@
 
  //||
-/*
- let result = "" || "Guest" || null ||23
- console.log(result);//  "Guest"
+ /*
+let results = "" || "Guest" || null ||23
+ console.log(results);//  "Guest"
  
  let result2 = undefined || null ||0
  console.log(result2);//  0
-*/
+ */
  //&&
 
  /*
@@ -37,8 +37,8 @@
  let result4 = undefined ?? "Khan"
  console.log(result4);//    "khan"
  
- let b = null
  let a=undefined ;
+ let b = null
  let result5 = a ??b
  let result6 = b ??a
  console.log(result5);
@@ -78,7 +78,7 @@ console.log(age || 18); // Output: 18 — (|| treats 0 as falsy)
 console.log(age ?? 18); // Output: 0 — (?? treats 0 as valid)  Use ?? when 0, false, or "" are meaningful values and shouldn't be replaced.
 
 
-//xample 5: Nested ?? for Multiple Fallbacks
+//Example 5: Nested ?? for Multiple Fallbacks
 
 let a = null;
 let b = undefined;

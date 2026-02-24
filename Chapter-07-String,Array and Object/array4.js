@@ -38,14 +38,14 @@
 
 // 4.forEach(). It can return undefined  and cannot change in orignal array.
 
-let arr3 = [5,4,21,30, 2,0,4]
+// let arr3 = [5,4,21,30, 2,0,4]
 
-let arr2 = arr3.forEach((elem,index,arr)=>{
-    return elem;
+// let arr2 = arr3.forEach((elem,index,arr)=>{
+//     return elem;
      
-})
-console.log(arr3);
-console.log(arr2);
+// })
+// console.log(arr3);
+// console.log(arr2);
 
 /* Note: So if you just want to loop through an array and do something,
 forEach() is great. But if you want to create a new array or

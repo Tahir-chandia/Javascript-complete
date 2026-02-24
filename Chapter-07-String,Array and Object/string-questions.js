@@ -28,6 +28,7 @@ let count = 0
 //     count++
 // }
 // }
+
 for (let index in str){
 if(str[index].toLowerCase() === ch.toLowerCase() ){
     console.log(index);

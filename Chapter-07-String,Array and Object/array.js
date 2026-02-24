@@ -5,13 +5,13 @@ where each box can hold one item (like a number, word, etc.).You can use it to g
 
 Create array using array Literal method (recommended):*/
 
-let arr = [2,4,24]
-let arr2 = [2,4,24,"Tahir",true]
-let arr3 = [2,4,24,"Tahir",true,["hello",54,22]]
+// let arr = [2,4,24]
+// let arr2 = [2,4,24,"Tahir",true]
+// let arr3 = [2,4,24,"Tahir",true,["hello",54,22]]
 
-console.log(arr);
-console.log(arr2);
-console.log(arr3);
+// console.log(arr);
+// console.log(arr2);
+// console.log(arr3);
 
 
 //Create array using array constructor:

@@ -33,11 +33,11 @@ console.log(arr3);
 
 /*5.slice(). It cannot change in orignal array , it cut the part we want by give two indexing parameter
  (start,end) it not include last index eg (2,7) it will cut from 2 to 6 No 7 is not include
+ 
  */
-
-
-// let arr2 = arr.slice(1,4)
-// console.log(arr);
+ 
+ // let arr2 = arr.slice(1,4)
+ // console.log(arr);
 // console.log(arr2);
 
 
@@ -84,7 +84,7 @@ to our need by use indexing, it takes 3 parameter (start,delete elements,add ele
 
 
 // let arr =[1,2,3]
-// let arr2 = arr.indexOf(2)
+// let arr2 = arr.indexOf(1)
 // console.log(arr);
 // console.log(arr2);
 
@@ -99,7 +99,7 @@ to our need by use indexing, it takes 3 parameter (start,delete elements,add ele
 //13. find(). It cannot change in orignal array , it gives function inside to find the first matched value if cannot match all values and also we need to return the value in function
 
 // let arr =[1,2,3]
-// let arr2 = arr.find((item)=>{return item=2})
+// let arr2 = arr.find((item)=>{return item==3})
 // console.log(arr);
 // console.log(arr2);
 

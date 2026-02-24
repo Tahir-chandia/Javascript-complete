@@ -8,7 +8,7 @@ made of characters. In JavaScript, we write a string by putting text inside quot
 
 // You can use sinfle quotes ('') , double quotes ("") or backtics (``)
 let name = "Tahir"
-let age = "24"
+let age = '24'
 let sentece = `My name is ${name} and my age is ${age}`
 
 /* Tempelate literals:
